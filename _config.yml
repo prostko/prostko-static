@@ -1,0 +1,39 @@
+# Site settings
+title: Eric Prostko
+description: 'Junior Web Developer'
+url: ''
+baseurl: '/prostko/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Eric Prostko'
+  email: ericprostko9@gmail.com
+  twitter_username:
+  facebook_username: eric prostko
+  github_username:  prostko
+  linkedin_username:  eric-prostko-95ba8b12b/
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: ''
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
