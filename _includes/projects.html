@@ -1,0 +1,42 @@
+<h3><a href="https://www.youtube.com/watch?v=psGGQQ7luvk&feature=youtu.be"> Mirror Mirror</a></h3>
+<p>A smart mirror project that my team and I built in ~7 days. It was a final project for Dev Bootcamp using only minimal hardware.
+</p>
+
+<ul>
+  <li>Voice command using IBM’s Watson</li>
+  <li>Google maps</li>
+  <li>Youtube videos</li>
+  <li>Time</li>
+  <li>Local Weather, highs and lows</li>
+  <li>Local traffic information</li>
+  <li>Prominent news headlines</li>
+  <li>Facial recognition and log in</li>
+</ul>
+
+<p>Written in pure Javascript using Node.js, Express, Socket.io, and Electron. We based it on the Magic Mirror platform, altered the design pattern and extended functionality using IBM's Watson Neural Network and Face++ Facial Recognition API. Several other API's were used including Google Maps, and Associated Press for news headlines.
+</p>
+
+<p>The mirror itself is based on the Raspberry Pi, a credit card sized computer which implements a Linux distro optimized for ARM based processors, called Raspbian. It runs a local server which communicates across a web socket giving commands and dynamically updating the DOM.
+</p>
+<p>Watson is always on, constantly listening for the hot word- here 'bob' ( which can be changed to any word ) - and culls the surrounding block of speech. This means you can say either 'hello, bob' or 'bob, hello' and the result will be the same. I think this is a very cool aspect of the speech recognition, and results in an almost conversational flow to the command of the mirror, which isn't displayed very well here, but is very fluid. The pickup of voice itself is pretty astounding given the hardware we used, a dirt cheap webcam/mic.
+</p>
+<p>Dev Bootcamp focuses primarily on Ruby to teach programming, object oriented and MVC design and the structure of web development, but this project utilized no Ruby at all.
+</p>
+
+<h3><a href="https://github.com/prostko/multi-snake">Multi Snake</a> </h3>
+<p>The classic. A simple snake game played across a web socket for chat functionality.
+</p>
+
+<p>Also written entirely in Javascript utilizing Node.js, Express, and Socket.io.
+The board itself is displayed on an HTML5 Canvas which, when combined with the constant connection of the web socket, results in extremely low latency gameplay, and the opportunity to improve the graphics of the game itself.
+</p>
+<p>This was my first project where I started from a blank white screen and created a functioning game from scratch.
+</p>
+
+<h3><a href="https://github.com/prostko/IMDB">IMDB clone</a> </h3>
+<p>This was a group project for DBC that we completed in 2 days.
+</p>
+<p>We created a simple Ruby on Rails application that is backed by the opensource movie database OMDB. This was also a great experience with the Agile workflow, breaking up the entire project into vertical slices and utilizing a Trello board to synchronize all of the moving parts with all of the team members.
+</p>
+<p>We used Rails, React.js, and JQuery.
+</p>
