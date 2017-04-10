@@ -13,9 +13,6 @@ custom_js: {particles.min, particles}
         {{ content }}
       </div>
 
-
-      {% include footer.html %}
-
       <div class="resume" style="display:none;" >
         {% include resume.html %}
       </div>
@@ -25,7 +22,10 @@ custom_js: {particles.min, particles}
           {% include projects.html %}
         </div>
       </div>
-    </div>
 
+      {% include footer.html %}
+
+    </div>
   </body>
+  
 </html>
