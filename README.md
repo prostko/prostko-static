@@ -14,4 +14,4 @@ https://prostko.github.io/prostko-static/
 
 ### Copyright and license
 
-It is under [the MIT license](/LICENSE).
+Filed under [the MIT license](/LICENSE).
