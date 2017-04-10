@@ -63,6 +63,20 @@ $(document).ready(function () {
     }
   })
 
+  $('#demoLink').click(function (e) {
+    e.preventDefault();
+
+    if ($('#demoLink').hasClass('expanded')) {
+      $('#demoLink').removeClass('expanded');
+      $('#demoLink').text('Demo')
+      $('#demoVideo').empty();
+    } else {
+    $('#demoLink').addClass('expanded');
+    $('#demoLink').text('Remove')
+    $('#demoVideo').append('<p><iframe width="560" height="315" src="https://www.youtube.com/embed/psGGQQ7luvk" frameborder="0" allowfullscreen></iframe></p>')
+    }
+  })
+
 
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
