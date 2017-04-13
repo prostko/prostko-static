@@ -7,4 +7,4 @@ tags: [Advice]
 
 Liked: How to Work Better
 
-<image src="{{ site.baseurl }}/images/How-to-work-better.jpg" width="100%" height="700" />
+<image src="{{ site.baseurl }}/images/How-to-work-better.jpg" />
