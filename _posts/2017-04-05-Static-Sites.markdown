@@ -2,7 +2,7 @@
 title:  "Static Sites"
 date:   2017-04-05 13:04:23
 categories: [jekyll]
-tags: [jekyll]
+tags: [Jekyll, SVG, Illustrator]
 ---
 
 

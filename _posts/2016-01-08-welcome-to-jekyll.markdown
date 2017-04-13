@@ -2,7 +2,7 @@
 title:  "Jekyll!"
 date:   2016-01-08 15:04:23
 categories: [jekyll]
-tags: [jekyll]
+tags: [Jekyll]
 ---
 Tuesday March 28
 Today I worked on my resume, scrubbing away the traces of my old career off of it.
