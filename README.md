@@ -2,7 +2,7 @@
 
 Jekyll powered single page static site. 
 
-https://prostko.github.io/prostko-static/
+https://prostko.github.io/
 
 
 
