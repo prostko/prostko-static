@@ -10,7 +10,7 @@ Headed into today with the plan of at least beginning a personal static page, so
 
 Checking out One Page Love, and all of the incredible sites there was inspiring and I immediately jumped into the apparently maddening rabbit hole of SVG animation. I’m still unclear on how this actually works inside the browser, but what it actually does is draw the different lines of a picture, let’s say “Hello World”. It would start at the H, and draw its way all the way across the object, something that we’ve all seen before, but in practice it can be clean and very impressive. Especially if it ins’t obvious, just a small touch of class. That turned out to be an all day affair, but it has been educational.
 
-![sphere_icon](/prostko/images/sphere_icon.jpg)
+<image src="{{ site.baseurl }}images/sphere_icon.jpg" />
 
 SVG stands for Scalable Vector Graphics, and that’s what it does, it draws the different vectors. Not sure how HTML5 actually supports it, but I’m pretty sure that it gets rendered inside of a canvas element on the page.
 
